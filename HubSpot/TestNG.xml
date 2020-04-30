@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="HubSpot application test automation suite">
+
+
+<listeners>
+       <listener class-name = "com.hs.qa.ExtentReportListener.ExtentReportListener"/>  
+</listeners>
+
+	<test name="HubSpot application test cases">
+	
+		<classes>
+
+			<class name="com.hs.qa.testcases.LoginPageTest" />
+			<class name="com.hs.qa.testcases.HomePageTest" />
+			
+		</classes>
+		
+	</test>
+	
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HubSpot application test automation suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.hs.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="HubSpot application test cases(failed)" parallel="none">
+    <classes>
+      <class name="com.hs.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="LoginTest"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.hs.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- HubSpot application test cases(failed) -->
+</suite> <!-- Failed suite [HubSpot application test automation suite] -->
